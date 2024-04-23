@@ -18,6 +18,7 @@ public class BillettStyrer {
     public List<Billett> hentAlle(){
         return rep.hentAlle();
     }
+
     //tar en bilett fra DB
     @GetMapping("/hentBilletterFraDB")
     public Billett hentBilletterFraDB(@RequestParam Long billettNr){
