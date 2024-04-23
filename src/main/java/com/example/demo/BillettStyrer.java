@@ -29,6 +29,7 @@ public class BillettStyrer {
         return "Oppdatert";
     }
 
+
     //sletter en og sletter alle
     @GetMapping("/slettAlle")
     public void slettAlle(){
